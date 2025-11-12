@@ -26,7 +26,7 @@ export default async function MovieDetailPage({ params }: PageProps) {
 		<div className="min-h-[calc(100vh-64px)]">
 			{backdropPath ? (
 				<div className="relative h-[50vh] w-full">
-					<Image src={backdropPath} alt={movie.title} fill className="object-cover" priority />
+					<Image src={backdropPath} alt={movie.title} fill priority />
 					<div className="absolute inset-0 bg-gradient-to-t from-background via-background/40 to-transparent" />
 				</div>
 			) : null}

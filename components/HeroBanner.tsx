@@ -18,7 +18,7 @@ export default function HeroBanner({ movie }: { movie: Movie }) {
 					fill
 					priority
 					quality={85}
-					className="object-cover"
+					// className="object-cover"
 					sizes="100vw"
 				/>
 			) : (
