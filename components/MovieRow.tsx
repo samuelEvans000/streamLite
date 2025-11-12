@@ -22,7 +22,7 @@ export default function MovieRow({
 
 	return (
 		<section className="relative">
-			<div className="mb-3 flex items-center justify-between">
+			<div className="mb-3 flex items-center justify-between px-4">
 				<h3 className="text-lg font-semibold">{categoryTitle}</h3>
 			</div>
 			<div className="group/movie-row relative">
