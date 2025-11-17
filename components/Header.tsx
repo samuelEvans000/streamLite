@@ -5,7 +5,7 @@ import { usePathname } from 'next/navigation';
 import { useEffect, useState } from 'react';
 
 const nav = [
-	{ href: '/', label: 'Home' }
+	{ href: '/', label: 'HOME' }
 ];
 
 export default function Header() {
